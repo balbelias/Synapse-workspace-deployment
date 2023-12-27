@@ -884,9 +884,9 @@ var ArtifactClient = /** @class */ (function () {
     };
     ArtifactClient.prototype.deployLinkedservice = function (baseUrl, payload, token) {
         console.log('deploying linked service');
-        console.log(baseUrl);
-        console.log(payload);
-        console.log(token);
+        console.log('baseUrl', baseUrl);
+        console.log('payload', payload);
+        console.log('token', JSON.stringify(token));
         return __awaiter(this, void 0, void 0, function () {
             var err_4;
             return __generator(this, function (_a) {
